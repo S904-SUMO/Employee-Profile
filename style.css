@@ -1,0 +1,56 @@
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.card-container {
+    display: flex
+;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 280px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+h2 span {
+    font-weight: bold;
+}
+
+p {
+    font-size: 14px;
+    margin: 6px 0;
+}
+strong {
+    font-weight: bolder;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.social-links {
+    margin-top: 15px;
+}
+
